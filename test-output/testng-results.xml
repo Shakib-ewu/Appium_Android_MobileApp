@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-16T13:41:26Z" name="Default suite" finished-at="2021-11-16T13:43:06Z" duration-ms="100304">
+    <groups>
+    </groups>
+    <test started-at="2021-11-16T13:41:26Z" name="Default test" finished-at="2021-11-16T13:43:06Z" duration-ms="100304">
+      <class name="tests.Tests">
+        <test-method is-config="true" signature="reportSetup()[pri:0, instance:tests.Tests@225129c]" started-at="2021-11-16T13:41:26Z" name="reportSetup" finished-at="2021-11-16T13:41:26Z" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Tests@225129c]" started-at="2021-11-16T13:41:26Z" name="setup" finished-at="2021-11-16T13:42:03Z" duration-ms="36658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Addition()[pri:0, instance:tests.Tests@225129c]" started-at="2021-11-16T13:42:03Z" name="Addition" finished-at="2021-11-16T13:42:36Z" duration-ms="33901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addition -->
+        <test-method signature="Division()[pri:0, instance:tests.Tests@225129c]" started-at="2021-11-16T13:42:36Z" name="Division" finished-at="2021-11-16T13:42:50Z" duration-ms="13881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Division -->
+        <test-method signature="Multiplication()[pri:0, instance:tests.Tests@225129c]" started-at="2021-11-16T13:42:50Z" name="Multiplication" finished-at="2021-11-16T13:43:00Z" duration-ms="9259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Multiplication -->
+        <test-method signature="Subtraction()[pri:0, instance:tests.Tests@225129c]" started-at="2021-11-16T13:43:00Z" name="Subtraction" finished-at="2021-11-16T13:43:06Z" duration-ms="6487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Subtraction -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:tests.Tests@225129c]" started-at="2021-11-16T13:43:06Z" name="TearDown" finished-at="2021-11-16T13:43:06Z" duration-ms="82" status="FAIL">
+          <exception class="org.openqa.selenium.UnsupportedCommandException">
+            <message>
+              <![CDATA[Method has not yet been implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TBNQDBC', ip: '192.168.0.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.sec.android.app.popupca..., appPackage: com.sec.android.app.popupca..., automationName: uiautomator1, databaseEnabled: false, desired: {appActivity: com.sec.android.app.popupca..., appPackage: com.sec.android.app.popupca..., automationName: uiautomator1, deviceName: Galaxy J5 Prime, platformName: android, platformVersion: 8.0.0, udid: 192.168.0.199:5555}, deviceManufacturer: samsung, deviceModel: SM-G570Y, deviceName: 192.168.0.199:5555, deviceScreenSize: 720x1280, deviceUDID: 192.168.0.199:5555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: LINUX, platformVersion: 8.0.0, takesScreenshot: true, udid: 192.168.0.199:5555, warnings: {}, webStorageEnabled: false}
+Session ID: 07083755-6e7b-426b-935a-95e59a1fcba3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnsupportedCommandException: Method has not yet been implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TBNQDBC', ip: '192.168.0.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: com.sec.android.app.popupca..., appPackage: com.sec.android.app.popupca..., automationName: uiautomator1, databaseEnabled: false, desired: {appActivity: com.sec.android.app.popupca..., appPackage: com.sec.android.app.popupca..., automationName: uiautomator1, deviceName: Galaxy J5 Prime, platformName: android, platformVersion: 8.0.0, udid: 192.168.0.199:5555}, deviceManufacturer: samsung, deviceModel: SM-G570Y, deviceName: 192.168.0.199:5555, deviceScreenSize: 720x1280, deviceUDID: 192.168.0.199:5555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: LINUX, platformVersion: 8.0.0, takesScreenshot: true, udid: 192.168.0.199:5555, warnings: {}, webStorageEnabled: false}
+Session ID: 07083755-6e7b-426b-935a-95e59a1fcba3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at tests.Tests.TearDown(Tests.java:183)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.afterRun(TestRunner.java:725)
+at org.testng.TestRunner.run(TestRunner.java:509)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="reportTeardown()[pri:0, instance:tests.Tests@225129c]" started-at="2021-11-16T13:43:06Z" name="reportTeardown" finished-at="2021-11-16T13:43:06Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTeardown -->
+      </class> <!-- tests.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
