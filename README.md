@@ -72,7 +72,7 @@ To add android mobile phone without cable add this command
 		</ul>
     
     
-  ### <center><h2>4. Screenshots</h2></center>  
+  ### <center><h2>5. Screenshots</h2></center>  
   <h5>1) Test Report</h5>
 <img src="Screenshot/TestReport1.png">
 
